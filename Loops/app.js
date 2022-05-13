@@ -228,3 +228,62 @@
 //     }
 
 // }
+
+// ---------------------------------------------------------------------------------
+
+// for (let i = 0; i <101; i++) {
+//     if (i % 5 == 0){
+//         continue;    
+//     }else{
+//         console.log(i);
+//     }
+// }
+
+// ---------------------------------------------------------------------------------
+
+// [1-100] numbers
+// XXXXXX 5x
+
+// for (let i = 0; i <101; i++) {
+    
+//     if (i % 5 == 0){
+//         continue;    
+//     }else{
+//         console.log(i);
+//     }
+//     if(i == 42) break;
+// }
+
+// ---------------------------------------------------------------------------------
+
+// even numbers [0-20]
+
+// for (let i = 0; i < 21; i++) {
+
+//     if(i % 2 == 1){
+//         continue;
+//     }else{
+//         console.log(i);
+//     }
+    
+// }
+
+// ---------------------------------------------------------------------------------
+
+// random number between >>>> [1-6]
+// If the number three comes out three times, it's game over.
+
+// let randomNumber = 0;
+// let countfor3 = 0;
+
+// while (randomNumber != 6) {
+//     randomNumber = Math.trunc(Math.random() * 6) + 1;
+//     console.log('randomNumber :>>', randomNumber);
+//     if (randomNumber == 3) countfor3++;
+//     if (countfor3 > 2) { 
+//         // countfor3 == 31
+//         console.log('3 comes third times, exiting...');
+//         break;
+//     }        
+// }
+
