@@ -66,5 +66,10 @@
 
 // ---------------------------------------------------------------------------------
 
+// function multiply(num1, num2){
+//     if(isNaN(num1) | isNaN(num2)) return 'please enter number';
+//     return num1 * num2
+// }
 
-
+// let result = multiply(`5`,5)
+// console.log('Result :>>', result);
