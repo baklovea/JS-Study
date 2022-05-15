@@ -73,3 +73,67 @@
 
 // let result = multiply(`5`,5)
 // console.log('Result :>>', result);
+
+// ---------------------------------------------------------------------------------
+
+// function divide(dividend, divider){
+//     if(divider == 0){
+//         return -1;
+//     }
+//     let quatient = dividend / divider;
+//     let reminder = dividend % divider;
+//     let result = [quatient, reminder];
+//     return result;
+// }
+ 
+// let res = divide(9,7);
+// console.log('result ::>', res);
+
+// ---------------------------------------------------------------------------------
+
+// function divide(dividend, divider){    
+//     if(divider == 0){
+//         return -1;
+//     }else{
+//         return [dividend / divider, dividend % divider];
+//     }
+//  }
+
+//  a = divide(9,4);
+//  console.log(a);
+
+// ---------------------------------------------------------------------------------
+
+// function divide(dividend, divider){
+//     dividend = prompt('please enter a number')
+//     divider = prompt('please enter a number');
+    
+//     if(divider == 0){
+//         return -1;
+//     }else{
+//         return [dividend / divider, dividend % divider];
+//     }
+//  }
+
+//  let a = divide();
+//  console.log(a);
+
+// ---------------------------------------------------------------------------------
+
+// const sayHi = function(){
+//     return 'hello' ;
+// }
+
+// console.log(sayHi());
+
+// ---------------------------------------------------------------------------------
+
+// function count(num) {
+//     if (num == 10) return;
+//     console.log(num);
+//     count(++num);    
+// }
+
+// count(5);
+
+// ---------------------------------------------------------------------------------
